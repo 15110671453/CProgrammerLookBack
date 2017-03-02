@@ -17,5 +17,5 @@ void constFunc ()
     //p2指针变量 p2可以修改 但是 p2 指向的内容不可以修改
     const char * p2 = &data_const;
     p2 = &data_var;
-    printf("const 在C语言中的使用");
+    printf("const 在C语言中的使用\n");
 }

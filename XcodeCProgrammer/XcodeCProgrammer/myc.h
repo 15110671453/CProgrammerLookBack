@@ -8,7 +8,15 @@
 
 #ifndef myc_h
 #define myc_h
-
+#ifdef __cplusplus
+extern "C" {
+    
 #include <stdio.h>
-void constFunc ();
+    void constFunc ();
+    
+#endif
+#ifdef __cplusplus
+}
+#endif
+
 #endif /* myc_h */

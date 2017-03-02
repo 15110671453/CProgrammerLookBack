@@ -10,7 +10,7 @@
 void sizeofFunc () {
     int a[10];
     int * ptr;
-    printf("sizeof(a) = %lu\n",sizeof(a));
+printf("sizeof(a) = %lu\n",sizeof(a));
     printf("sizeof(a[10]) = %lu\n",sizeof(a[10]));
     printf("sizeof(a[100]) = %lu\n",sizeof(a[100]));
     printf("sizeof(a[1]) = %lu\n",sizeof(a[1]));

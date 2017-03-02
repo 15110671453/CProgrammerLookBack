@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC03E2421E55509C00F90632 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC03E2411E55509C00F90632 /* main.c */; };
 		EC03E2491E5550AC00F90632 /* myc.c in Sources */ = {isa = PBXBuildFile; fileRef = EC03E2481E5550AC00F90632 /* myc.c */; };
 		EC03E24C1E5550B300F90632 /* sizeofint.c in Sources */ = {isa = PBXBuildFile; fileRef = EC03E24B1E5550B300F90632 /* sizeofint.c */; };
+		EC7C8CC81E651D8800D1F8B8 /* zhizhenvsrefrence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CC61E651D8800D1F8B8 /* zhizhenvsrefrence.cpp */; };
+		EC7C8CCA1E6524B100D1F8B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CC91E6524B100D1F8B8 /* main.cpp */; };
+		EC7C8CCD1E652BB700D1F8B8 /* constcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CCB1E652BB700D1F8B8 /* constcpp.cpp */; };
+		EC7C8CD01E65435300D1F8B8 /* funccpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CCE1E65435300D1F8B8 /* funccpp.cpp */; };
+		EC7C8CD31E65474800D1F8B8 /* cppmemorymanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CD11E65474800D1F8B8 /* cppmemorymanager.cpp */; };
+		EC7C8CD61E654AB200D1F8B8 /* cppobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CD41E654AB200D1F8B8 /* cppobject.cpp */; };
+		EC7C8CD91E654BC500D1F8B8 /* cppgraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CD71E654BC500D1F8B8 /* cppgraph.cpp */; };
+		EC7C8CDC1E6560B000D1F8B8 /* cpptu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CDA1E6560B000D1F8B8 /* cpptu.cpp */; };
+		EC7C8CDF1E65626E00D1F8B8 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CDD1E65626E00D1F8B8 /* Node.cpp */; };
+		EC7C8CE21E6563BA00D1F8B8 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CE01E6563BA00D1F8B8 /* Map.cpp */; };
+		EC7C8CE51E656CC700D1F8B8 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC7C8CE31E656CC700D1F8B8 /* Test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +36,31 @@
 
 /* Begin PBXFileReference section */
 		EC03E23E1E55509C00F90632 /* XcodeCProgrammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCProgrammer; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC03E2411E55509C00F90632 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EC03E2481E5550AC00F90632 /* myc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myc.c; sourceTree = "<group>"; };
 		EC03E24A1E5550AF00F90632 /* myc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myc.h; sourceTree = "<group>"; };
 		EC03E24B1E5550B300F90632 /* sizeofint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sizeofint.c; sourceTree = "<group>"; };
 		EC03E24D1E5550B600F90632 /* sizeofint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sizeofint.h; sourceTree = "<group>"; };
+		EC7C8CC61E651D8800D1F8B8 /* zhizhenvsrefrence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zhizhenvsrefrence.cpp; sourceTree = "<group>"; };
+		EC7C8CC71E651D8800D1F8B8 /* zhizhenvsrefrence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zhizhenvsrefrence.hpp; sourceTree = "<group>"; };
+		EC7C8CC91E6524B100D1F8B8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC7C8CCB1E652BB700D1F8B8 /* constcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = constcpp.cpp; sourceTree = "<group>"; };
+		EC7C8CCC1E652BB700D1F8B8 /* constcpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = constcpp.hpp; sourceTree = "<group>"; };
+		EC7C8CCE1E65435300D1F8B8 /* funccpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = funccpp.cpp; sourceTree = "<group>"; };
+		EC7C8CCF1E65435300D1F8B8 /* funccpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = funccpp.hpp; sourceTree = "<group>"; };
+		EC7C8CD11E65474800D1F8B8 /* cppmemorymanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cppmemorymanager.cpp; sourceTree = "<group>"; };
+		EC7C8CD21E65474800D1F8B8 /* cppmemorymanager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cppmemorymanager.hpp; sourceTree = "<group>"; };
+		EC7C8CD41E654AB200D1F8B8 /* cppobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cppobject.cpp; sourceTree = "<group>"; };
+		EC7C8CD51E654AB200D1F8B8 /* cppobject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cppobject.hpp; sourceTree = "<group>"; };
+		EC7C8CD71E654BC500D1F8B8 /* cppgraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cppgraph.cpp; sourceTree = "<group>"; };
+		EC7C8CD81E654BC500D1F8B8 /* cppgraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cppgraph.hpp; sourceTree = "<group>"; };
+		EC7C8CDA1E6560B000D1F8B8 /* cpptu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpptu.cpp; sourceTree = "<group>"; };
+		EC7C8CDB1E6560B000D1F8B8 /* cpptu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cpptu.hpp; sourceTree = "<group>"; };
+		EC7C8CDD1E65626E00D1F8B8 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		EC7C8CDE1E65626E00D1F8B8 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		EC7C8CE01E6563BA00D1F8B8 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		EC7C8CE11E6563BA00D1F8B8 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		EC7C8CE31E656CC700D1F8B8 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		EC7C8CE41E656CC700D1F8B8 /* Test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +93,31 @@
 		EC03E2401E55509C00F90632 /* XcodeCProgrammer */ = {
 			isa = PBXGroup;
 			children = (
-				EC03E2411E55509C00F90632 /* main.c */,
+				EC7C8CC91E6524B100D1F8B8 /* main.cpp */,
 				EC03E24D1E5550B600F90632 /* sizeofint.h */,
 				EC03E24B1E5550B300F90632 /* sizeofint.c */,
 				EC03E24A1E5550AF00F90632 /* myc.h */,
 				EC03E2481E5550AC00F90632 /* myc.c */,
+				EC7C8CC61E651D8800D1F8B8 /* zhizhenvsrefrence.cpp */,
+				EC7C8CC71E651D8800D1F8B8 /* zhizhenvsrefrence.hpp */,
+				EC7C8CCB1E652BB700D1F8B8 /* constcpp.cpp */,
+				EC7C8CCC1E652BB700D1F8B8 /* constcpp.hpp */,
+				EC7C8CCE1E65435300D1F8B8 /* funccpp.cpp */,
+				EC7C8CCF1E65435300D1F8B8 /* funccpp.hpp */,
+				EC7C8CD11E65474800D1F8B8 /* cppmemorymanager.cpp */,
+				EC7C8CD21E65474800D1F8B8 /* cppmemorymanager.hpp */,
+				EC7C8CD41E654AB200D1F8B8 /* cppobject.cpp */,
+				EC7C8CD51E654AB200D1F8B8 /* cppobject.hpp */,
+				EC7C8CD71E654BC500D1F8B8 /* cppgraph.cpp */,
+				EC7C8CD81E654BC500D1F8B8 /* cppgraph.hpp */,
+				EC7C8CDA1E6560B000D1F8B8 /* cpptu.cpp */,
+				EC7C8CDB1E6560B000D1F8B8 /* cpptu.hpp */,
+				EC7C8CE31E656CC700D1F8B8 /* Test.cpp */,
+				EC7C8CE41E656CC700D1F8B8 /* Test.hpp */,
+				EC7C8CDD1E65626E00D1F8B8 /* Node.cpp */,
+				EC7C8CDE1E65626E00D1F8B8 /* Node.hpp */,
+				EC7C8CE01E6563BA00D1F8B8 /* Map.cpp */,
+				EC7C8CE11E6563BA00D1F8B8 /* Map.hpp */,
 			);
 			path = XcodeCProgrammer;
 			sourceTree = "<group>";
@@ -130,8 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC03E2421E55509C00F90632 /* main.c in Sources */,
+				EC7C8CD61E654AB200D1F8B8 /* cppobject.cpp in Sources */,
+				EC7C8CC81E651D8800D1F8B8 /* zhizhenvsrefrence.cpp in Sources */,
+				EC7C8CD91E654BC500D1F8B8 /* cppgraph.cpp in Sources */,
+				EC7C8CE51E656CC700D1F8B8 /* Test.cpp in Sources */,
+				EC7C8CD01E65435300D1F8B8 /* funccpp.cpp in Sources */,
+				EC7C8CDF1E65626E00D1F8B8 /* Node.cpp in Sources */,
+				EC7C8CDC1E6560B000D1F8B8 /* cpptu.cpp in Sources */,
+				EC7C8CE21E6563BA00D1F8B8 /* Map.cpp in Sources */,
 				EC03E24C1E5550B300F90632 /* sizeofint.c in Sources */,
+				EC7C8CD31E65474800D1F8B8 /* cppmemorymanager.cpp in Sources */,
+				EC7C8CCA1E6524B100D1F8B8 /* main.cpp in Sources */,
+				EC7C8CCD1E652BB700D1F8B8 /* constcpp.cpp in Sources */,
 				EC03E2491E5550AC00F90632 /* myc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +321,7 @@
 				EC03E2471E55509C00F90632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

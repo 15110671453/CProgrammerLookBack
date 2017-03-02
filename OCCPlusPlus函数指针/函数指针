@@ -1,0 +1,70 @@
+函数指针
+
+1、函数指针
+定义格式：
+返回类型 (*函数指针名)(参数列表);
+【技巧】
+1）把函数的声明拷贝过来
+2）把函数名换成 (*函数指针变量名)
+3）形参名可以不写
+
+【好处】
+可以灵活的使用p调用不同的方法
+【使用举例】
+int add(int a, int b){
+    return  a + b;
+}
+int sub(int a, int b){
+    return a - b;
+}
+
+int main(int argc, const char * argv[])
+{
+    //定义一个函数指针
+    int (*p)(int,int);//int (*p)(int a,int b);也行，可以省略参数名
+    //给函数指针赋值
+    p = add;
+    //使用函数指针
+    int c = p(1,2);
+    NSLog(@"c = %d",c);
+    //也可以这样使用
+    p = sub;//使函数指针指向另一个方法
+    c = (*p)(2,1);
+     NSLog(@"c = %d",c);
+    return 0;
+}
+复制代码
+
+
+打印结果：
+2015-10-07 14:35:42.955 加强02[1231:303] c = 3
+2015-10-07 14:35:42.957 加强02[1231:303] c = 1
+【给函数指针取别名】
+取别名格式：
+typedef 返回类型 (*新类型名)(参数列表);
+【用别名定义函数指针格式】新类型名 指针变量名；
+上述代码可以有如下改动，其他不用变
+//定义一个函数指针
+    typedef int (*Func)(int,int);//int (*p)(int a,int b);也行，可以省略参数名
+    //给函数指针赋值
+    Func p= add;
+复制代码
+2、block的typedef
+【格式】
+    typedef 返回值类型 (^newBlockTypeName)(参数列表);
+【例子】
+    typedef int (^myBlock)(int, int);
+【应用举例】
+  
+//【格式】typedef 返回值类型 (^newBlockTypeName)(参数列表);
+    //定义一个有参有返回值的block的别名
+    typedef int (^myBlock)(int, int);
+    //此时myBlock是一个类型，不再是一个单纯的变量了
+    myBlock b1 = ^(int a, int b){
+        return a + b;
+    };
+    NSLog(@"a + b = %d", b1(1,2));
+复制代码
+
+打印结果：
+2015-10-07 14:45:23.489 加强02[1252:303] a + b = 3
